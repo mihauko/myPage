@@ -1,0 +1,52 @@
+@media screen and (max-width: 1200px){
+	
+}
+@media screen and (max-width: 1023px){
+	/*---REUSABLE---*/
+	body { font-size: 18px;}
+	section { padding: 55px 0;}
+	.row { padding:0 2%;}
+	/*------*/
+	.main-text-box {
+		width: 100%;
+		padding: 0 2%;
+	}
+	
+	.hobby-col {
+		height: 200px;
+	}
+	.hobby-col-3 {
+		margin-right: 5px; 
+	}
+	.hobby-col-2 {
+		margin-left: 5px;
+		margin-right:0;
+		/*padding-right: -10px;*/
+	}
+	.hobby-col-1 {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.hobby-text {
+		width: 95%;
+	}
+	.section-form h3{
+		font-size: 110%;
+		width: 80%;
+		margin: 0 auto;
+	}
+	.contact-form-messages {
+	width: 100%;
+	margin-top: 20px;
+	text-align: center; 
+	}
+	.footer-data li:nth-child(3) {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.contact-form {
+		width: 100%;
+	}
+}
