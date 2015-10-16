@@ -12,7 +12,7 @@
         exit;
     }
     // Set the recipient email address. Update this to YOUR desired email address.
-    $recipient = "michal-winiarski@michal-winiarski.pl";
+    $recipient = "my_mail";
 
     // Set the email subject.
     $subject = "New contact $email";
